@@ -6,10 +6,29 @@ With a single command, you’ll have everything installed and configured to star
 ## Quick Start
 
 To get started clone the repo and run : 
-
+- step 1
 ```bash
 npm i
 ```
+- step 2 (select your project)
+```bash
+npx convex dev 
+```
+- step3
+### add env variables
+```bash
+ KINDE_CLIENT_ID=
+ KINDE_CLIENT_SECRET=
+ KINDE_ISSUER_URL=
+ KINDE_SITE_URL=
+ KINDE_POST_LOGOUT_REDIRECT_URL=
+ KINDE_POST_LOGIN_REDIRECT_URL=
+ CONVEX_DEPLOYMENT=
+ NEXT_PUBLIC_CONVEX_URL=
+```
+
+
+
 That’s it! 🎉 With npm install, you’re all set up with Convex, Kinde Auth, and Shadcn, making it a perfect foundation for building and scaling user-based applications in Next.js.
 
 ## Run the App
